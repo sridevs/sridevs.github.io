@@ -2,14 +2,14 @@
 
 A small directory of open-source projects by [sridevs](https://github.com/sridevs), with enough context to help people choose a project and find a way to contribute.
 
-The site is published at <https://sridevs.github.io>. Project details live in [`docs/projects.json`](docs/projects.json); update that catalog when adding or changing a project.
+The site is published at <https://sridevs.github.io>. Project details live in [`projects.json`](projects.json); update that catalog when adding or changing a project.
 
 ## Local preview
 
-From the repository root, serve the `docs` directory with any static file server. For example:
+From the repository root, serve the site with any static file server. For example:
 
 ```bash
-python3 -m http.server 8000 --directory docs
+python3 -m http.server 8000
 ```
 
 Then open <http://localhost:8000>.
@@ -24,4 +24,4 @@ Only projects with a catalog entry are shown. Add new categories as projects are
 
 ## Publish
 
-GitHub Pages is configured to deploy the `main` branch's `/docs` folder. Project code, issues, roadmaps, and contribution instructions remain in each project's own repository.
+GitHub Pages is configured to deploy the `main` branch's root folder. Project code, issues, roadmaps, and contribution instructions remain in each project's own repository.
