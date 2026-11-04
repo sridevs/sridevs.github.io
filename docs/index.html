@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f5f0">
+    <meta name="description" content="Explore open-source projects by sridevs, understand what they do, and find a way to collaborate.">
+    <title>Projects & collaboration — sridevs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#projects">Skip to projects</a>
+    <header class="topbar">
+      <a class="wordmark" href="#top" aria-label="sridevs projects home"><span class="wordmark-mark">s.</span><span>open projects</span></a>
+      <a class="github-link" href="https://github.com/sridevs" target="_blank" rel="noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> BUILT IN THE OPEN · OPEN TO COLLABORATION</p>
+          <h1 id="hero-title">Good ideas get<br><span>better together.</span></h1>
+          <p class="hero-description">A home for the things I’m building in public. Get the context, find a project that clicks, and jump straight into the work.</p>
+          <a class="hero-cta" href="#projects">Find your project <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-note" aria-label="Hub principle">
+          <span class="note-index">01 / THE IDEA</span>
+          <p>Less hunting for context.<br>More time making useful things.</p>
+          <span class="note-line"></span>
+          <span class="note-caption">Choose what you care about.<br>Contribute at your own pace.</span>
+        </div>
+        <div class="hero-stamp" aria-hidden="true">OPEN<br><span>↗</span></div>
+      </section>
+
+      <section class="catalog" id="projects" aria-labelledby="catalog-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">THE PROJECT SHELF</p>
+            <h2 id="catalog-title">Pick a thread.</h2>
+          </div>
+          <p class="section-aside">Every project has its own home on GitHub.<br>This is your map to getting started.</p>
+        </div>
+
+        <div class="catalog-controls">
+          <div id="category-filters" class="filters" role="group" aria-label="Filter projects by category">
+            <button class="filter-button is-active" type="button" data-category="all" aria-pressed="true">All projects <span class="filter-count" data-count="all">0</span></button>
+          </div>
+          <label class="search-box">
+            <span class="search-icon" aria-hidden="true">⌕</span>
+            <span class="visually-hidden">Search projects</span>
+            <input id="project-search" type="search" placeholder="Search projects or tools" autocomplete="off">
+            <kbd>/</kbd>
+          </label>
+        </div>
+
+        <p id="results-summary" class="results-summary" aria-live="polite"></p>
+        <div id="project-list" class="project-list" aria-live="polite"></div>
+        <div id="empty-state" class="empty-state" hidden>
+          <span class="empty-mark" aria-hidden="true">?</span>
+          <p>No projects match that search.</p>
+          <button id="clear-search" class="text-button" type="button">Clear search</button>
+        </div>
+      </section>
+
+      <section class="collab" aria-labelledby="collab-title">
+        <div class="collab-symbol" aria-hidden="true">↗</div>
+        <div>
+          <p class="eyebrow">A GOOD PLACE TO START</p>
+          <h2 id="collab-title">Curious? Come build with us.</h2>
+          <p>Browse open issues, read the project guide, or open a discussion. You don’t need to have everything figured out before joining in.</p>
+        </div>
+        <a class="collab-link" href="https://github.com/sridevs?tab=repositories" target="_blank" rel="noreferrer">Explore on GitHub <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="footer-brand" href="https://github.com/sridevs" target="_blank" rel="noreferrer">sridevs <span>·</span> building in the open</a>
+      <p>New projects and new collaborators always welcome.</p>
+      <a class="back-top" href="#top">Back to top ↑</a>
+    </footer>
+  </body>
+</html>

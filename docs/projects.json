@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Vaani",
+    "category": "Personal",
+    "focus": "Local-first personal assistant",
+    "summary": "An open-source personal voice agent designed to converse naturally, remember context with permission, and take safe actions while keeping people in control of their data.",
+    "stage": "Early macOS-first MVP",
+    "context": "The current voice path connects local speech recognition, Ollama, and speech synthesis. The first milestone focuses on reliable conversations, visible listening and acting states, explicit approval for consequential tools, and a contributor-ready macOS experience.",
+    "contribute": "Help make local voice agents dependable: improve the macOS experience, reliability and tests, safe tool interactions, or privacy and setup documentation.",
+    "stack": ["Python", "Ollama", "faster-whisper", "Piper"],
+    "repository": "https://github.com/sridevs/vaani",
+    "readme": "https://github.com/sridevs/vaani#readme",
+    "issues": "https://github.com/sridevs/vaani/issues",
+    "contributingGuide": "https://github.com/sridevs/vaani/blob/main/CONTRIBUTING.md"
+  },
+  {
+    "name": "BarelyRich",
+    "category": "Personal",
+    "focus": "Private personal finance",
+    "summary": "A local-first wealth tracker for recording assets and debts, importing bank statements with a local AI model, and following net worth across currencies.",
+    "stage": "Working local-first app",
+    "context": "The Streamlit app stores its portfolio locally in SQLite. Statement extraction uses Ollama, and people review and confirm extracted data before it is saved. The project prioritizes keeping financial data on the user's own computer.",
+    "contribute": "Help improve privacy-friendly finance tracking, statement imports, financial insights, test coverage, and the local user experience.",
+    "stack": ["Python", "Streamlit", "SQLite", "Ollama"],
+    "repository": "https://github.com/sridevs/barelyrich",
+    "readme": "https://github.com/sridevs/barelyrich#readme",
+    "issues": "https://github.com/sridevs/barelyrich/issues",
+    "contributingGuide": null
+  }
+]
